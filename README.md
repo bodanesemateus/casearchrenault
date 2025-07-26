@@ -16,6 +16,10 @@ A solução é composta por múltiplas camadas, cada uma responsável por uma pa
 
 ---
 
+![Diagrama da Arquitetura Aprimorada Renault](caserenault-aprimorado.drawio.png)
+
+---
+
 ## Camadas do Sistema
 
 ### 1. Frontend
