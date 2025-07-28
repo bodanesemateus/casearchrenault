@@ -12,7 +12,7 @@ A solução é composta por múltiplas camadas, cada uma responsável por uma pa
 - **API Gateway:** Autenticação, autorização e rate limiting
 - **Backend (NestJS Monorepo):** Módulos de negócio (Estoque, Pedidos, Notificações, Relatórios, Integração SAP)
 - **Middleware Java:** Integração com SAP via SAP JCo
-- **Infraestrutura:** Banco de dados (MariaDB), cache (Redis), mensageria (Kafka/RabbitMQ), monitoramento (Prometheus/ELK), orquestração (Kubernetes)
+- **Infraestrutura:** Banco de dados (Mongo), cache (Redis), mensageria (Kafka/RabbitMQ), monitoramento (Prometheus/ELK), orquestração (Kubernetes)
 
 ---
 
@@ -59,7 +59,7 @@ A solução é composta por múltiplas camadas, cada uma responsável por uma pa
 
 ### 6. Infraestrutura de Suporte
 
-- **Banco de Dados:** MariaDB (relacional), Redis (cache)
+- **Banco de Dados:** Mongo, Redis (cache)
 - **Mensageria:** Kafka ou RabbitMQ para eventos assíncronos
 - **Monitoramento:** Prometheus e ELK Stack para logs e métricas
 - **Orquestração:** Kubernetes para deploy e escalabilidade
@@ -140,7 +140,7 @@ Backend (NestJS Monorepo)
  ├─ Relatórios
  └─ Integração SAP
         │
-        ├─ Banco de Dados (MariaDB/Redis)
+        ├─ Banco de Dados (Mongo/Redis)
         ├─ Fila de Mensagens (Kafka/RabbitMQ)
         ├─ Monitoramento (Prometheus/ELK)
         └─ Middleware Java (SAP JCo)
