@@ -16,7 +16,7 @@ A solução é composta por múltiplas camadas, cada uma responsável por uma pa
 
 ---
 
-![Diagrama da Arquitetura Aprimorada Renault](renault.drawio.png)
+![Diagrama da Arquitetura Aprimorada Renault](renault.png)
 
 ---
 
